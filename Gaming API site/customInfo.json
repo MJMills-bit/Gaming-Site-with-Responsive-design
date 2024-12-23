@@ -1,0 +1,61 @@
+[
+  {
+    "custId": 3498,
+    "extention": "en-za/product/EP1004-PPSA01721_00-GTAVCROSSGENBUND",
+    "extention2": "en-US/p/grand-theft-auto-v",
+    "extention3": "app/271590/Grand_Theft_Auto_V/",
+    "country": "en-za",
+    "subCat": "product",
+    "prodId": "EP1004-PPSA01721_00-GTAVCROSSGENBUND",
+    "description": "This is a game"
+  },
+  {
+    "custId": 3328,
+    "extention": "en/game/the_witcher_3_wild_hunt_game_of_the_year_edition",
+    "extention2": "en-za/product/EP4497-PPSA04021_00-0000000000GOTY11"
+  },
+  {
+    "custId": 4200,
+    "extention": "en-za/p/portal-2/bt2b17v20d1p",
+    "extention2": "app/620/Portal_2/",
+    "title": "Portal 2"
+  },
+  {
+    "custId": 4291,
+    "extention": "",
+    "extention2": "app/730/CounterStrike_2/",
+    "title": "CS global offensive"
+  },
+  {
+    "custId": 5286,
+    "extention": "app/203160/Tomb_Raider/",
+    "extention2": "agecheck/app/203160/"
+  },
+  { "custId": 13536, "extention": "app/400/Portal/", "extention2": "" },
+  {
+    "custId": 12020,
+    "extention": "app/550/Left_4_Dead_2/",
+    "extention2": "en-ZA/games/store/left-4-dead-2/BWVZHJN0G3C3/0001"
+  },
+  {
+    "custId": 5679,
+    "extention": "en-za/product/EP1003-CUSA08933_00-SKYRIMVR00000000",
+    "extention2": "app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/"
+  },
+  {
+    "custId": 28,
+    "extention": "en-za/product/EP1004-CUSA08519_00-REDEMPTIONFULL02",
+    "extention2": "en-US/p/red-dead-redemption-2"
+  },
+  {
+    "custId": 4062,
+    "extention": "en-US/p/bioshock-infinite-complete-edition",
+    "extention2": ""
+  },
+  { "custId": 802, "extention": "en-za/ search/borderlands", "extention2": "" },
+  {
+    "custId": 3439,
+    "extention": "en/game/life_is_strange_before_the_storm",
+    "extention2": "en-za/search/life%20is%20strange%20before%20the%20storm"
+  }
+]

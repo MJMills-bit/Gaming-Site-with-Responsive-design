@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <script defer src="script.js"></script>
+    <script src="produ.env.js"></script>
+  </head>
+  <body>
+    <div class="nav-container fade-in-element">
+      <div id="app">
+        <img class="main-icon fade-in-element" src="./Gaming Logo robot.jpg"></img>
+        <div class="container-title">
+        <h1 class="heading fade-in-element" >Game Finder</h1>
+      </div>
+      </div>
+      <nav class="nav-container">
+        <div class="nav-items">
+          <div class="search-bar">
+            <input
+              type="text"
+              id="search-bar"
+              placeholder="Search for a game..."
+            />
+            <button id="search-button">Search</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Genre Filters -->
+       
+      <button id="toggleButton">Search genres</button>
+      <aside id="myAside">
+        <h2>Genres</h2>
+        <ul>
+          <li ><button id="genre-buttons" onclick="filterByGenre('action')" >Action</button></li>
+          <li>
+            <button id="genre-buttons" onclick="filterByGenre('adventure')" >Adventure</button>
+          </li>
+          <li><button id="genre-buttons" onclick="filterByGenre('rpg')" >RPG</button></li>
+          <li><button id="genre-buttons" onclick="filterByGenre('shooter')" >Shooter</button></li>
+          <li><button id="genre-buttons" onclick="filterByGenre('strategy')" >Strategy</button></li>
+        </ul>
+      </aside>
+
+      <!-- Games List -->
+      <ul class="games fade-in-element"></ul>
+    
+      <!-- Pagination Controls -->
+      <div class="pagination">
+        <button id="prev-button" disabled>Previous</button>
+        <span id="page-info"></span>
+        <button id="next-button">Next</button>
+      </div>
+    </div>
+
+    <div id="hover-area"></div>
+    <!-- Add hover area -->
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
